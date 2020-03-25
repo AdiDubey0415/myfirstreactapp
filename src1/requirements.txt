@@ -1,0 +1,45 @@
+1. You should be able to look/search for videos - DONE
+
+2. The videos should be populated in the left sidebar list of videos, with a button to add them to bookmarks - DONE
+
+3. On the click of the video, the video should start playing, and get added to the played videos list - DONE
+
+4. On the click of the "add to bookmarks" button, the video should go into the bookmarked videos list, and the button should turn to "remove from bookmarks" - NOT DONE
+
+5. In the played videos list, if you click on a video, it should get played - DONE
+
+6. In the played videos list, there should be a button "remove from played videos" upon click of which it should get removed - NOT DONE
+
+7. In the played videos list, there should be a button "add to bookmarks", to add videos to bookmarks, once added, the button should turn to "remove from bookmarks" - NOT DONE
+
+8. In the bookmarked videos list, on the click, video should be played - DONE
+
+9. In the bookmarked videos list, there should be a button "remove from bookmarks", to remove it from the list - NOT DONE
+
+Create an application allows you to add people - name, email, city
+Name, email and city
+
+{
+  items: [
+    {
+      id: 1,
+      name: "item 1",
+      price: 10
+    }
+  ],
+  cart: [
+    {
+      id: 1,
+      name: "item 1",
+      price: 10,
+      quantity: 2
+    }
+  ],
+  totalValue: 100
+}
+
+addToCart will be default add one quantity
+onclick of + or -, take id of item in list of items, insert it into cart if not available, if available, change the quantity
+onchange of editablecounter will also fire the same event
+removeItemFromCart will remove that entry from the cart list
+checkout will empty the cart
